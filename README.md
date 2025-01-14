@@ -9,4 +9,4 @@ LLaSA: Scaling Train Time and Test Time Compute for LLaMA based Speech Synthesis
 
 **LLaMa based TTS 1b version**: [Llasa-1B](https://huggingface.co/HKUST-Audio/Llasa-1B)
 
-**LLaMa based TTS 8b version**: [Llasa-3B](https://huggingface.co/HKUST-Audio/Llasa-8B) (Comming Soon!)
+**LLaMa based TTS 8b version**: [Llasa-8B](https://huggingface.co/HKUST-Audio/Llasa-8B) (Comming Soon!)
