@@ -1,5 +1,5 @@
 # LLaSA_training
-LLaSA: Scaling Train Time and Test Time Compute for LLaMA based Speech Synthesis
+LLaSA: Scaling Train-time and Test-time Compute for LLaMA-based Speech Synthesis
 
 ## Directly used on Hugging Face
 
