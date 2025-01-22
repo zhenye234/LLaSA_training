@@ -1,7 +1,7 @@
 # LLaSA_training
 LLaSA: Scaling Train-time and Test-time Compute for LLaMA-based Speech Synthesis
 
-## Traing
+## Training
 ```bash
 torchrun --nproc_per_node=8 train_tts.py config.json 
 ```
