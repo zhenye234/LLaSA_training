@@ -231,8 +231,8 @@ def main():
             '<|SPEECH_UNDERSTANDING_END|>'
         ]
 
-        # 添加新词汇
-        new_speech_tokens = [f'<|s_{i}|>' for i in range(65536)]  # 根据需要调整范围
+ 
+        new_speech_tokens = [f'<|s_{i}|>' for i in range(65536)]   
         all_new_tokens = Start_End_tokens + new_speech_tokens
         num_added_tokens = tokenizer.add_tokens(all_new_tokens)
         print(f"Added {num_added_tokens} speech tokens to the tokenizer.")
