@@ -6,6 +6,12 @@ LLaSA: Scaling Train-time and Test-time Compute for LLaMA-based Speech Synthesis
 torchrun --nproc_per_node=8 train_tts.py config.json 
 ```
 
+or 
+
+```bash
+sbatch run_slurm.sh
+```
+
 ## Data
 
 You can download tokenized open-source speech data [here](https://huggingface.co/datasets/HKUST-Audio/Llasa_opensource_speech_data_160k_hours_tokenized/tree/main). This includes LibriHeavy, Emilia (in both Chinese and English), and WenetSpeech4TTS, totaling approximately 160,000 hours of open-source data.
