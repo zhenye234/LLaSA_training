@@ -28,4 +28,4 @@ Our models are trained on 250,000 hours of speech data. Of this, 160,000 hours c
 
 **LLaMa based TTS 1b version**: [Llasa-1B](https://huggingface.co/HKUST-Audio/Llasa-1B)
 
-**LLaMa based TTS 8b version**: [Llasa-8B](https://huggingface.co/HKUST-Audio/Llasa-8B) (Comming Soon!)
+**LLaMa based TTS 8b version**: [Llasa-8B](https://huggingface.co/HKUST-Audio/Llasa-8B)  
