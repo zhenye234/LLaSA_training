@@ -1,5 +1,5 @@
 # LLaSA_training
-LLaSA: Scaling Train-time and Test-time Compute for LLaMA-based Speech Synthesis (Comming Soon!)
+LLaSA: Scaling Train-time and Test-time Compute for LLaMA-based Speech Synthesis 
 
 ## Training
 ```bash
