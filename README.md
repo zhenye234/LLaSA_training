@@ -25,6 +25,11 @@ Our models are trained on 250,000 hours of speech data. Of this, 160,000 hours c
 
 [Text_sequence](https://github.com/zhenye234/LLaSA_training/blob/5ffcddee243f0aa594ebfc089f4327a24f7cac6f/train_tts.py#L111) is encoded by the  text tokenizer from Llama, for example, [Llama-3.2-1B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct) 
 
+
+## Finetune instruction 
+
+Coming Soon
+
 ## Directly used on Hugging Face
 
 **Codec**: [xcodec2](https://huggingface.co/HKUST-Audio/xcodec2) (Please install new version xcodec2==0.1.3)
