@@ -1,5 +1,6 @@
-# LLaSA_training
-LLaSA: Scaling Train-time and Inference-time Compute for LLaMA-based Speech Synthesis 
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2502.04128)
+
+**Update (2025-02-07):** Our paper has been released!
 
 ## Training
 ```bash
