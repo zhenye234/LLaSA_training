@@ -21,10 +21,10 @@ Our models are trained on 250,000 hours of speech data. Of this, 160,000 hours c
 
 ## Data instruction 
  
-[Speech_sequence](https://github.com/zhenye234/LLaSA_training/blob/5ffcddee243f0aa594ebfc089f4327a24f7cac6f/train_tts.py#L112) is extrated through [X-codec2](https://github.com/zhenye234/X-Codec-2.0)
 
 [Text_sequence](https://github.com/zhenye234/LLaSA_training/blob/5ffcddee243f0aa594ebfc089f4327a24f7cac6f/train_tts.py#L111) is encoded by the  text tokenizer from Llama, for example, [Llama-3.2-1B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct) 
 
+[Speech_sequence](https://github.com/zhenye234/LLaSA_training/blob/5ffcddee243f0aa594ebfc089f4327a24f7cac6f/train_tts.py#L112) is extrated through [X-codec2](https://github.com/zhenye234/X-Codec-2.0)  We change the value of speech tokens by adding  len(tokenizer) +8 [special tokens](https://github.com/zhenye234/LLaSA_training/blob/1d65cf3e34c0d5b508404d67ff41b3b6fb1ecab7/train_tts.py#L67) thereby forming a unified tokenizer that encompasses both speech and text.
 
 ## Finetune instruction 
 
