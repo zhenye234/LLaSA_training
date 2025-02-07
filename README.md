@@ -1,6 +1,6 @@
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2502.04128)
 
-**Update (2025-02-07):** Our paper has been released!
+**Update (2025-02-07):** Our paper has been released! Llasa 1b Multilingual version released!
 
 ## Training
 ```bash
@@ -25,8 +25,12 @@ Our models are trained on 250,000 hours of speech data. Of this, 160,000 hours c
 
 **Codec**: [xcodec2](https://huggingface.co/HKUST-Audio/xcodec2) (Please install new version xcodec2==0.1.3)
  
-**LLaMa based TTS 3b version**: [Llasa-3B](https://huggingface.co/HKUST-Audio/Llasa-3B)
 
-**LLaMa based TTS 1b version**: [Llasa-1B](https://huggingface.co/HKUST-Audio/Llasa-1B)
 
-**LLaMa based TTS 8b version**: [Llasa-8B](https://huggingface.co/HKUST-Audio/Llasa-8B)  
+**Llasa 1b version**: [Llasa-1B](https://huggingface.co/HKUSTAudio/Llasa-1B)
+
+**Llasa 1b Multilingual version**: [Llasa-3B](https://huggingface.co/HKUSTAudio/Llasa-1B-Multilingual)
+
+**Llasa 3b version**: [Llasa-3B](https://huggingface.co/HKUSTAudio/Llasa-3B)
+
+**Llasa 8b version**: [Llasa-8B](https://huggingface.co/HKUSTAudio/Llasa-8B)  
