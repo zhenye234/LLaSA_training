@@ -1,6 +1,9 @@
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2502.04128)
 
 **Update (2025-02-13):** Add Llasa finetune instruction.
+You can try the finetuning results here:
+- [LLaSA 1B Multi-Speakers (Genshin-zh-en-ja-ko)](https://huggingface.co/spaces/HKUST-Audio/Llasa-1B-multi-speakers-genshin-zh-en-ja-ko)
+- [LLaSA 1B Finetuned for Two Speakers](https://huggingface.co/spaces/HKUST-Audio/Llasa-1B-finetuned-for-two-speakers)
 
 
 **Update (2025-02-07):** Our paper has been released! Llasa 1b Multilingual version released!
