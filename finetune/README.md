@@ -1,6 +1,3 @@
-Here is an improved version of the README:
-
----
 
 ## TTS Models Collection
 
