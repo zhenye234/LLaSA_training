@@ -6,15 +6,15 @@ You can access the collection of Llasa TTS models at [this link](https://hugging
 We offers two finetuning strategies: **Online Finetuning** and **Offline Finetuning**.
 
 ### **Online Finetuning**
-In this approach, the codec is used to directly extract the code during the training process. All you need is a dataset containing audio (wav), text, and any additional condition information (such as speaker). Compared to offline finetuning, this strategy requires more GPU memory because the codec model is involved during training.
+In this approach, the codec is used to directly extract the code during the training process. All you need is a dataset containing audio (wav), text, and any additional condition information. Compared to offline finetuning, this strategy requires more GPU memory because the codec model is involved during training.
 
 ### **Offline Finetuning**
 With this strategy, audio is pre-encoded into codes before training begins, which helps reduce GPU memory usage during training. However, this approach is more complex, as it involves additional steps prior to the actual training process.
 
 ### Model Overview
-The architecture and training process of our model are designed to be simple: with text input at the left and speech at the right. This simplicity makes it suitable as a base model for finetuning across a variety of scenarios, including single-speaker and multi-speaker tasks. 
+The architecture and training process of our model are designed to be simple: with text input at the left and speech at the right. This simplicity makes it suitable as a base model for finetuning across a variety of scenarios (such as single or multi-speaker, emotion, or voice description). 
 
-- For tasks involving **Chinese** and **English** data, you can choose from models LLaSA 1B, 3B, or 8B.
+- For tasks involving **Chinese** and **English** speech synthesis, you can choose from models LLaSA 1B, 3B, or 8B.
 
 - For **multilingual TTS tasks**, we also offer the LLaSA 1B multilingual model.
 
