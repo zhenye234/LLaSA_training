@@ -36,7 +36,7 @@ Our models are trained on 250,000 hours of speech data. Of this, 160,000 hours c
 
 ## Directly used on Hugging Face
 
-**Codec**: [xcodec2](https://huggingface.co/HKUST-Audio/xcodec2) (Please install new version xcodec2==0.1.3)
+**Codec**: [xcodec2](https://huggingface.co/HKUST-Audio/xcodec2)  
  
 
 
