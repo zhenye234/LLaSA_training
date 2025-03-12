@@ -40,10 +40,6 @@ Our models are trained on 250,000 hours of speech data. Of this, 160,000 hours c
  
 
 
-**Llasa 1b version**: [Llasa-1B](https://huggingface.co/HKUSTAudio/Llasa-1B)
+**Llasa-collections**: [Llasa-collections](https://huggingface.co/collections/HKUSTAudio/llasa-679b87dbd06ac556cc0e0f44)
 
-**Llasa 1b Multilingual version**: [Llasa-1B-Multilingual](https://huggingface.co/HKUSTAudio/Llasa-1B-Multilingual) (Not mentioned in the paper)
-
-**Llasa 3b version**: [Llasa-3B](https://huggingface.co/HKUSTAudio/Llasa-3B)
-
-**Llasa 8b version**: [Llasa-8B](https://huggingface.co/HKUSTAudio/Llasa-8B)  
+ 
