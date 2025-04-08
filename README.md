@@ -1,5 +1,16 @@
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2502.04128)
 
+
+## Directly used on Hugging Face
+
+**Codec**: [xcodec2](https://huggingface.co/HKUST-Audio/xcodec2)  
+ 
+
+
+**TTS inference: Llasa-collections**: [Llasa-collections](https://huggingface.co/collections/HKUSTAudio/llasa-679b87dbd06ac556cc0e0f44)
+
+
+
 **Update (2025-02-13):** Add Llasa finetune instruction.
 You can try the finetuning results here:
 - [LLaSA 1B Multi-Speakers (Genshin-zh-en-ja-ko)](https://huggingface.co/spaces/HKUST-Audio/Llasa-1B-multi-speakers-genshin-zh-en-ja-ko)
@@ -33,13 +44,5 @@ Our models are trained on 250,000 hours of speech data. Of this, 160,000 hours c
 [Speech_sequence](https://github.com/zhenye234/LLaSA_training/blob/5ffcddee243f0aa594ebfc089f4327a24f7cac6f/train_tts.py#L112) is extrated through [X-codec2](https://github.com/zhenye234/X-Codec-2.0)  We change the value of speech tokens by adding  len(text tokenizer) +8 [special tokens](https://github.com/zhenye234/LLaSA_training/blob/1d65cf3e34c0d5b508404d67ff41b3b6fb1ecab7/train_tts.py#L67) thereby forming a unified tokenizer that encompasses both speech and text.
 
  
-
-## Directly used on Hugging Face
-
-**Codec**: [xcodec2](https://huggingface.co/HKUST-Audio/xcodec2)  
- 
-
-
-**Llasa-collections**: [Llasa-collections](https://huggingface.co/collections/HKUSTAudio/llasa-679b87dbd06ac556cc0e0f44)
 
  
