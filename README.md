@@ -11,7 +11,9 @@
 
 
 
-**Update (2025-02-13):** Add Llasa finetune instruction.
+**Update (2025-06-09):** Add Llasa finetune instruction.
+Awesome work based on Llasa
+- [LLaSa GRPO tuning](https://github.com/channel-io/ch-tts-llasa-rl-grpo) : Special thanks to [Seungyoun Shin](https://github.com/SeungyounShin) from [Channel Corp.](https://channel.io/en) for sharing the Llasa GRPO RL-tuning script based on Verl.
 You can try the finetuning results here:
 - [LLaSA 1B Multi-Speakers (Genshin-zh-en-ja-ko)](https://huggingface.co/spaces/HKUST-Audio/Llasa-1B-multi-speakers-genshin-zh-en-ja-ko)
 - [LLaSA 1B Finetuned for Two Speakers](https://huggingface.co/spaces/HKUST-Audio/Llasa-1B-finetuned-for-two-speakers)
